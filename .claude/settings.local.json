@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:kalmandavid.hu)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:www.marcusfarrell.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
