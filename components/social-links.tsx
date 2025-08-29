@@ -25,8 +25,8 @@ export function SocialLinks() {
   ]
 
   return (
-    <footer className="mt-12 pt-8 border-t border-border">
-      <div className="flex justify-center space-x-6">
+    <footer className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-border">
+      <div className="flex justify-center space-x-4 sm:space-x-6">
         {links.map((link) => (
           <a
             key={link.name}

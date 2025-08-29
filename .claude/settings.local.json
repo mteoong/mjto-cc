@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:kalmandavid.hu)",
       "Bash(npm run dev:*)",
-      "WebFetch(domain:www.marcusfarrell.com)"
+      "WebFetch(domain:www.marcusfarrell.com)",
+      "Bash(git push:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
