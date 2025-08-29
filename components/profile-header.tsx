@@ -10,6 +10,10 @@ export function ProfileHeader() {
 
   useEffect(() => {
     setMounted(true)
+    
+    // Preload white logo to prevent lag on first dark mode switch
+    const img = new window.Image()
+    img.src = '/marc-profile-white.png'
   }, [])
 
   // Show default logo during SSR/hydration

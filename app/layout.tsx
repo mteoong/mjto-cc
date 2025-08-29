@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/marc-profile-white.png" />
+      </head>
       <body
         className={`${inter.variable} antialiased font-sans`}
       >
