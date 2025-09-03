@@ -3,14 +3,9 @@ import { GraduationCap } from "lucide-react"
 export function EducationSection() {
   const education = [
     {
-      degree: "Computer Science BSc",
-      institution: "National University of Singapore",
+      degree: "Computer Science BS",
+      institution: "University of California Berkeley",
       period: "2020 - 2024",
-    },
-    {
-      degree: "Trading Certification Program",
-      institution: "Singapore Exchange, Singapore",
-      period: "2023 - 2024",
     },
   ]
 
@@ -23,7 +18,7 @@ export function EducationSection() {
         </div>
         <div className="space-y-3">
           {education.map((edu, index) => (
-            <div key={index} className="flex flex-col sm:flex-row sm:justify-between sm:items-start -mx-3 px-3 py-2 sm:py-1.5 rounded-md hover:bg-muted transition-colors cursor-pointer">
+            <div key={index} className="flex flex-col sm:flex-row sm:justify-between sm:items-start -mx-3 px-3 py-2 sm:py-1.5 rounded-md">
               <div className="flex-1 sm:pr-8">
                 <h3 className="font-medium text-foreground leading-[1.4] mb-0.5" style={{fontSize: '14px', fontWeight: '500', letterSpacing: '-0.01em'}}>{edu.degree}</h3>
                 <p className="text-muted-foreground leading-[1.4] m-0" style={{fontSize: '14px'}}>{edu.institution}</p>

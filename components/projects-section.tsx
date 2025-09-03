@@ -3,29 +3,34 @@ import { Code } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      name: "Trading Dashboard",
-      description: "Real-time trading analytics · React, TypeScript",
-      date: "Dec 2024",
+      name: "Quickscope",
+      description: "Memecoin Trading Terminal · Next.js, TypeScript, Supabase",
+      date: "2025",
+      link: "https://quickscope-dex.vercel.app/",
     },
     {
-      name: "Portfolio Tracker",
-      description: "Investment portfolio management · Next.js, Supabase",
-      date: "Nov 2024",
+      name: "Typo",
+      description: "Memecoin Landing Page · Webflow",
+      date: "2024",
+      link: "https://typo.bot",
     },
     {
-      name: "Market Analysis Tool",
-      description: "Technical analysis platform · Python, FastAPI",
-      date: "Oct 2024",
+      name: "Discord MirrorBot",
+      description: "Player Prop Mirror Server · Typescript, Docker, AWS",
+      date: "2023",
+      link: "https://github.com/mteoong/mirrorbot",
     },
     {
-      name: "Crypto Bot",
-      description: "Automated trading bot · Node.js, WebSocket",
-      date: "Sep 2024",
+      name: "Poker Protocol",
+      description: "DeFi website and staking app · Webflow, React",
+      date: "2023",
+      link: "https://web.archive.org/web/20230508105430/https://www.pokerprotocol.io/",
     },
     {
-      name: "Risk Calculator",
-      description: "Position sizing calculator · React, Chart.js",
-      date: "Aug 2024",
+      name: "MoonJaks",
+      description: "NFT Mint Site · React",
+      date: "2022",
+      link: "https://moonjaks.vercel.app/",
     },
   ]
 
@@ -37,13 +42,19 @@ export function ProjectsSection() {
         </div>
         <div className="space-y-3">
           {projects.map((project, index) => (
-            <div key={index} className="flex flex-col sm:flex-row sm:justify-between sm:items-start -mx-3 px-3 py-2 sm:py-1.5 rounded-md hover:bg-muted transition-colors cursor-pointer">
+            <a 
+              key={index} 
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col sm:flex-row sm:justify-between sm:items-start -mx-3 px-3 py-2 sm:py-1.5 rounded-md hover:bg-muted transition-colors cursor-pointer block"
+            >
               <div className="flex-1 sm:pr-8">
                 <h3 className="font-medium text-foreground leading-[1.4] mb-0.5" style={{fontSize: '14px', fontWeight: '500', letterSpacing: '-0.01em'}}>{project.name}</h3>
                 <p className="text-muted-foreground leading-[1.4] m-0" style={{fontSize: '14px'}}>{project.description}</p>
               </div>
               <span className="text-muted-foreground leading-[1.4] mt-1 sm:mt-0 flex-shrink-0" style={{fontSize: '14px'}}>{project.date}</span>
-            </div>
+            </a>
           ))}
         </div>
       </div>

@@ -4,22 +4,22 @@ export function SocialLinks() {
   const links = [
     {
       name: "Email",
-      href: "mailto:marc@example.com",
+      href: "mailto:mrc.teoong@gmail.com",
       icon: Mail,
     },
     {
       name: "GitHub",
-      href: "https://github.com/marcteoong",
+      href: "https://github.com/mteoong",
       icon: Github,
     },
     {
       name: "Twitter",
-      href: "https://twitter.com/marcteoong",
+      href: "https://x.com/kokoprop",
       icon: Twitter,
     },
     {
       name: "Telegram",
-      href: "https://t.me/marcteoong",
+      href: "https://t.me/mjtotrading",
       icon: Send,
     },
   ]
