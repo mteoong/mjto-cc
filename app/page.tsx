@@ -8,7 +8,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
-      <div className="max-w-[700px] mx-auto px-4 sm:px-6 pt-8 sm:pt-16 pb-8">
+      <div className="max-w-[700px] mx-auto px-5 sm:px-6 pt-8 sm:pt-16 pb-8">
         <ProfileHeader />
         <div className="mt-8 sm:mt-12 space-y-8 sm:space-y-12">
           <div className="border-t border-border pt-6 sm:pt-8">
