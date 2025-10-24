@@ -3,6 +3,12 @@ import { Briefcase } from "lucide-react"
 export function ExperienceSection() {
   const experiences = [
     {
+      title: "Frontrun Pro",
+      company: "Product Engineer",
+      period: "Oct 2025 - Present",
+      link: "https://www.frontrun.pro/landing",
+    },
+    {
       title: "Encrypto",
       company: "Fullstack Developer",
       period: "Aug 2025 - Present",

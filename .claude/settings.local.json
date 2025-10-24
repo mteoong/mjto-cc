@@ -5,7 +5,9 @@
       "Bash(npm run dev:*)",
       "WebFetch(domain:www.marcusfarrell.com)",
       "Bash(git push:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run start:*)"
     ],
     "deny": [],
     "ask": []

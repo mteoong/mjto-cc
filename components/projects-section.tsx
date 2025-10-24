@@ -3,6 +3,12 @@ import { Code } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
+      name: "Pump.fun/PumpSwap Copytrader",
+      description: "Latency optimized solana trading bot · TypeScript, Solana, Laserstream",
+      date: "2025",
+      link: "https://github.com/mteoong/sol-copytrader",
+    },
+    {
       name: "Quickscope",
       description: "Memecoin Trading Terminal · Next.js, TypeScript, Supabase",
       date: "2025",
