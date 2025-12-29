@@ -16,7 +16,7 @@ export function ProjectsSection() {
     },
     {
       name: "Typo",
-      description: "Memecoin Landing Page · Webflow",
+      description: "AI Agent Protocol · Webflow, Rust, Typescript",
       date: "2024",
       link: "https://typo.bot",
     },
@@ -25,12 +25,6 @@ export function ProjectsSection() {
       description: "Player Prop Mirror Server · Typescript, Docker, AWS",
       date: "2023",
       link: "https://github.com/mteoong/mirrorbot",
-    },
-    {
-      name: "Poker Protocol",
-      description: "DeFi website and staking app · Webflow, React",
-      date: "2023",
-      link: "https://web.archive.org/web/20230508105430/https://www.pokerprotocol.io/",
     },
     {
       name: "MoonJaks",

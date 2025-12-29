@@ -33,11 +33,17 @@ export function ExperienceSection() {
       link: "https://web.archive.org/web/20230314142908/https://www.pokerprotocol.io/",
     },
     {
+      title: "Code4rena",
+      company: "Independent Smart Contract Auditor",
+      period: "2022",
+      link: "https://code4rena.com/@0xDecorativePineapple",
+    },
+    {
       title: "Sigma Prime",
-      company: "Smart Contract Security Intern",
+      company: "Blockhain Research Intern",
       period: "2022",
       link: "https://sigmaprime.io",
-    }
+    },
   ]
 
   return (

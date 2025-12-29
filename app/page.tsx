@@ -12,10 +12,10 @@ export default function Home() {
         <ProfileHeader />
         <div className="mt-8 sm:mt-12 space-y-8 sm:space-y-12">
           <div className="border-t border-border pt-6 sm:pt-8">
-            <ProjectsSection />
+            <ExperienceSection />
           </div>
           <div className="border-t border-border pt-6 sm:pt-8">
-            <ExperienceSection />
+            <ProjectsSection />
           </div>
           <div className="border-t border-border pt-6 sm:pt-8">
             <EducationSection />

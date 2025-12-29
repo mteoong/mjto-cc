@@ -4,8 +4,13 @@ export function EducationSection() {
   const education = [
     {
       degree: "University of California Berkeley",
-      institution: "Computer Science BS",
+      institution: "Computer Science BS, 3.5",
       period: "2020 - 2024",
+    },
+    {
+      degree: "British School Manila",
+      institution: "IB 42/45, SAT 1580",
+      period: "2018 - 2020",
     },
   ]
 
