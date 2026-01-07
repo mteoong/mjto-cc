@@ -36,7 +36,7 @@ export function ExperienceSection() {
       title: "Code4rena",
       company: "Independent Smart Contract Auditor",
       period: "2022",
-      link: "https://code4rena.com/@0xDecorativePineapple",
+      link: "https://code4rena.com/",
     },
     {
       title: "Sigma Prime",
