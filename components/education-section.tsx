@@ -4,7 +4,7 @@ export function EducationSection() {
   const education = [
     {
       degree: "University of California Berkeley",
-      institution: "Computer Science BS, 3.5",
+      institution: "Computer Science BS",
       period: "2020 - 2024",
     },
     {
