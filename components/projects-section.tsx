@@ -3,32 +3,38 @@ import { Code } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
+      name: "StorysDao",
+      description: "3D game platform with onchain economy on Monad · Three.js, Typescript",
+      date: "2026",
+      link: "https://github.com/mteoong/storysdao",
+    },
+    {
       name: "Pump.fun/PumpSwap Copytrader",
-      description: "Latency optimized solana trading bot · TypeScript, Solana, Laserstream",
+      description: "Latency optimized Solana trading bot · TypeScript, Solana, Laserstream",
       date: "2025",
       link: "https://github.com/mteoong/sol-copytrader",
     },
     {
       name: "Quickscope",
-      description: "Memecoin Trading Terminal · Next.js, TypeScript, Supabase",
+      description: "Memecoin trading terminal · Next.js, TypeScript, Supabase",
       date: "2025",
       link: "https://quickscope-dex.vercel.app/",
     },
     {
       name: "Typo",
-      description: "AI Agent Protocol · Webflow, Rust, Typescript",
+      description: "AI agent protocol · Webflow, Rust, Typescript",
       date: "2024",
       link: "https://typo.bot",
     },
     {
       name: "Discord MirrorBot",
-      description: "Player Prop Mirror Server · Typescript, Docker, AWS",
+      description: "Player prop mirror server and agreggator · Typescript, Docker, AWS",
       date: "2023",
       link: "https://github.com/mteoong/mirrorbot",
     },
     {
       name: "MoonJaks",
-      description: "NFT Mint Site · React",
+      description: "NFT mint site · React",
       date: "2022",
       link: "https://moonjaks.vercel.app/",
     },
