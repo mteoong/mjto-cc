@@ -34,7 +34,7 @@ export function ProjectsSection() {
     },
     {
       name: "MoonJaks",
-      description: "NFT mint site · React",
+      description: "NFT mint site · React Native",
       date: "2022",
       link: "https://moonjaks.vercel.app/",
     },
